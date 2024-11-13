@@ -19,4 +19,4 @@ class Game{
 }
 
 
-(async () =>  new Game())();
+window.onload = () => new Game();
